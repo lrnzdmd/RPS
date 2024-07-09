@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./rps.js" defer></script>
+</head>
+<body>
+  <div class="header"><h2>Round 1</h2></div>
+  <div class="container">
+    <div class="playerside">
+      <div class="scoreside">
+        <div class="playerside">YOU</div>
+        <div class="playerscore">
+          <div id="player1"></div>
+          <div id="player2"></div>
+          <div id="player3"></div>
+        </div>
+      </div>
+      <div class="choiceside">
+        <button id="prock"><img src="./images/rock.svg" alt="rock"></button>
+        <button id="ppaper"><img src="./images/paper.svg" alt="paper"></button>
+        <button id="pscissors"><img src="./images/scissors.svg" alt="scissors"></button>
+      </div>
+    </div>
+    <div class="cpuside">
+      <div class="choiceside">
+        <button id="crock"><img src="./images/rock.svg" alt="rock"></button>
+        <button id="cpaper"><img src="./images/paper.svg" alt="paper"></button>
+        <button id="cscissors"><img src="./images/scissors.svg" alt="scissors"></button>
+      </div>
+      <div class="scoreside">
+        <div class="cpuside">CPU</div>
+        <div class="cpuscore">
+          <div id="cpu1"></div>
+          <div id="cpu2"></div>
+          <div id="cpu3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header"><h2 id="restartgame"></h2></div>
+</body>
+</html>
